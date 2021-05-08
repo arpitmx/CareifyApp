@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Careify</string>
+    <string name="registration">Registration</string>
+    <string name="to_begin_this_journey_tell_us_what_type_of_account_you_d_be_opening">To begin this journey, tell us what type of account you’d be opening.</string>
+    <string name="already_have_account">
+        <font color="#000000">Already have an account?</font>
+        <font color="#1565D8">Sign in </font>
+    </string>
+
+
+</resources>
