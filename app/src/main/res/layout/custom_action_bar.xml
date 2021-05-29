@@ -2,15 +2,18 @@
 <LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
     xmlns:app = "http://schemas.android.com/apk/res-auto"
     android:layout_width = "match_parent"
-    android:layout_height = "60dp"
-    android:elevation="2dp"
+    android:layout_height = "55dp"
+    android:elevation="5dp"
+    android:background="#fff"
     android:weightSum = "1">
     <LinearLayout
         android:layout_width = "0dp"
         android:layout_height = "match_parent"
-        android:layout_weight = "0.28">
+        android:layout_weight = "0.28"
+        android:layout_marginStart="3dp"
+        >
         <ImageView
-            android:layout_width = "85dp"
+            android:layout_width = "80dp"
             android:layout_height = "40dp"
             android:layout_marginStart="10dp"
             android:layout_gravity="center_vertical"
@@ -20,24 +23,27 @@
     <LinearLayout
         android:layout_width = "0dp"
         android:layout_height = "match_parent"
-        android:layout_weight = "0.4">
+        android:layout_weight = "0.4"
+        android:gravity="start"
+        >
 
         <com.skydoves.powerspinner.PowerSpinnerView
             android:id="@+id/powerSpinnerView"
-            android:layout_width="140dp"
-            android:layout_height="45dp"
+            android:layout_width="120dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="1dp"
             android:layout_gravity="center_vertical"
             android:background="@drawable/button_withoutstrokes_greybg"
             android:elevation="2dp"
-            android:fontFamily="@font/hmed"
+            android:fontFamily="@font/intermedium"
             android:gravity="center"
             android:hint="Lucknow"
-            android:layout_marginTop="2dp"
-            android:text="LUCKNOW"
-
+            android:text="Location"
+android:layout_marginStart="15dp"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
-            android:textSize="14sp"
+            android:textSize="15sp"
+            android:textAlignment="center"
             app:layout_constraintBottom_toTopOf="@+id/button4"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView2"
@@ -65,10 +71,10 @@
             android:layout_width = "0dp"
             android:layout_height = "match_parent"
             android:layout_weight = "0.16"
-            android:gravity="center">
+            android:gravity="end">
         <ImageButton
-            android:layout_width="45dp"
-            android:layout_height="45dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:layout_gravity="center"
             android:background="@drawable/button_withoutstrokes_greybg_square"
            android:src="@drawable/ic_search"
@@ -81,8 +87,8 @@
             android:layout_weight = "0.13"
             android:gravity = "center">
             <ImageButton
-                android:layout_width="45dp"
-                android:layout_height="45dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
                 android:background="@drawable/button_withoutstrokes_greybg_square"
                 android:src="@drawable/ic_adjust_horizontal_alt"
                 />

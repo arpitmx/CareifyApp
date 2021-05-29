@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeF">
+
+    <fragment
+        android:id="@+id/homeF"
+        android:name="com.bitpolarity.careify.Bottom_Nav_Files.Home_Fragment"
+        android:label="home_fragment"
+        tools:layout="@layout/home_fragment" />
+    <fragment
+        android:id="@+id/exercisesF"
+        android:name="com.bitpolarity.careify.Bottom_Nav_Files.Exercise_Fragment"
+        android:label="fragment_exercises"
+        tools:layout="@layout/fragment_exercises" />
+    <fragment
+        android:id="@+id/postF"
+        android:name="com.bitpolarity.careify.Bottom_Nav_Files.postF"
+        android:label="fragment_post"
+        tools:layout="@layout/fragment_post" />
+    <fragment
+        android:id="@+id/socialF"
+        android:name="com.bitpolarity.careify.Bottom_Nav_Files.Social_Fragment"
+        android:label="fragment_social"
+        tools:layout="@layout/fragment_social" />
+    <fragment
+        android:id="@+id/meF"
+        android:name="com.bitpolarity.careify.Bottom_Nav_Files.Me_Fragment"
+        android:label="fragment_me"
+        tools:layout="@layout/fragment_me" />
+</navigation>
